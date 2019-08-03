@@ -1,9 +1,10 @@
 import time
-print('Welcome to the Selection Panel !')
+
+print('This is our menu')
 time.sleep(3)
-refuse = ['nothing','none','nobe']
-accept = ['I wanna something','order']
-reponse=raw_input('So what the want! order or nothing! ')
+refuse = ['nothing','none','nope','nah'] #refusal for the customer not order
+accept = ['I want to order something','order','im ready','ill order'] #customer is ready to order
+response = raw_input('welcome to our automated restaurant ! ')
 if reponse in refuse:
     time.sleep(2)
     print('Alright sir')
