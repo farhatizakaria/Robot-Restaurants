@@ -6,12 +6,14 @@ refuse = ['nothing','none','nope','nah'] #refusal for the customer not order
 accept = ['I want to order something','order','im ready','ill order'] #customer is ready to order
 response = raw_input('welcome to our automated restaurant ! ')
 class Refusal:
-    if response in refuse:
+    def refusing(self):
+        if response in refuse:
         def refusing(self):
         time.sleep(1)
         print('of course, would like more time?')
 class Acceptance:
-    if response in accept:
+    def acceptance(self):
+        if response in accept:
         def accepting(self):
         time.sleep(2)
         print('Ok write it !')
@@ -19,9 +21,9 @@ class Acceptance:
         meals = ['meat','chiken','lamp']
         code_wifi = 'azer1234'
         choice=raw_input()
-   class Drinks:
+class Drinks:
     def drinking(self):
-    if choice in drinks:
+        if choice in drinks:
         time.sleep(2)
         print('You wanna drink !')
         time.sleep(2)
