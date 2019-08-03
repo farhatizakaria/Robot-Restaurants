@@ -19,6 +19,8 @@ class Acceptance:
         meals = ['meat','chiken','lamp']
         code_wifi = 'azer1234'
         choice=raw_input()
+   class Drinks:
+    def drinking(self):
     if choice in drinks:
         time.sleep(2)
         print('You wanna drink !')
