@@ -9,13 +9,14 @@ class Refusal:
     if response in refuse:
         time.sleep(1)
         print('of course, would like more time?')
-elif reponse in accept:
-    time.sleep(2)
-    print('Ok write it !')
-    drinks = ['coffie','tie','juice','lemonad']
-    meals = ['meat','chiken','lamp']
-    code_wifi = 'azer1234'
-    choice=raw_input()
+class Acceptance:
+    if response in accept:
+        time.sleep(2)
+        print('Ok write it !')
+        drinks = ['coffie','tie','juice','lemonade']
+        meals = ['meat','chiken','lamp']
+        code_wifi = 'azer1234'
+        choice=raw_input()
     if choice in drinks:
         time.sleep(2)
         print('You wanna drink !')
