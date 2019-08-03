@@ -11,6 +11,7 @@ class Refusal:
         print('of course, would like more time?')
 class Acceptance:
     if response in accept:
+        def acceptance(self):
         time.sleep(2)
         print('Ok write it !')
         drinks = ['coffie','tie','juice','lemonade']
